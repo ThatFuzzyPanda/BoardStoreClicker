@@ -1,0 +1,33 @@
+
+    .ShopPeice{
+      display: inline-flex;
+      border-style: solid;
+      border-color: black;
+      background-color: rgb(155, 153, 153);
+      border-width: 1px;
+      border-radius: 7px;
+      color: #ffffff;
+    }
+    .Shop{
+      
+      display: grid;
+      grid-template-columns: max-content;
+      grid-template-rows: auto;
+      justify-content: center;
+      background-color: rgba(72, 54, 4,0.8);
+      border-radius: 7px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black;
+  }
+  .shopBtn{
+    margin: 10;
+    width: 70;
+    height: 40;
+    border-radius: 7px;
+    font-family: 'Rubik Doodle Shadow',sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    width: 100px;
+    color:rgba(0, 0, 0,0.8);
+  }

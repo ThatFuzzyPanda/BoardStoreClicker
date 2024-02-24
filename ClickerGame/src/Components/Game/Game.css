@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    background-image: url(../Env.png);
+    height: 1050px;
+    background-size: cover ;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: rgba(176, 211, 219,0.5);
+    
+}
+.SettingsButton{
+    position: absolute;
+    right: 130px;
+    top:10px;
+    margin: 10;
+    width: 70;
+    
+    border-radius: 7px;
+    font-family: 'Rubik Doodle Shadow',sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    color:rgba(0, 0, 0,0.8);
+      
+}
+.game{
+   display: grid;
+   grid-template-columns: 150px 800px 700px;
+   justify-content: center;
+   align-items: center;
+   max-height: 100vh;
+   
+}
+.gridContainerL{
+    grid-column: 0;
+    position: relative;
+    bottom: 300px;
+}
+
+.gridContainer{
+    margin-left: 20px;
+    
+}
+
+.counter{
+    text-align: center;
+}
+.shopTitle{
+    text-align: center;
+}
+.mainBtn{
+    border-width: 0px;
+    height: 350px;
+    width: 350px;
+    background-image: url(../Skateboard.png);
+    background-size: contain;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
